@@ -1,0 +1,7 @@
+
+
+instance_create_layer(obj_spawn_wave03.x, obj_spawn_wave03.y+200, "Instances_Character", obj_kamikaze); 
+
+instance_create_layer(obj_spawn_wave03.x+200, obj_spawn_wave03.y, "Instances_Character", obj_kamikaze); 
+
+instance_create_layer(obj_spawn_wave03.x+50, obj_spawn_wave03.y+100, "Instances_Character", obj_kamikaze); 
