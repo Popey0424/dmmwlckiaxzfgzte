@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_soluce",
-  "bbox_bottom": 8,
-  "bbox_left": 0,
-  "bbox_right": 50,
-  "bbox_top": 0,
+  "bbox_bottom": 23,
+  "bbox_left": 36,
+  "bbox_right": 89,
+  "bbox_top": 11,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d92fdeeb-8521-4138-9f25-7da234a0ef1b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cfffcb4e-73b9-4d0d-95d3-5785a5725eb0",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 9,
+  "height": 86,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ed15c73c-27f9-449f-8cfe-34f57f28d590","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1afb314d-f0a8-4b45-9ada-fd393841bb4b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d92fdeeb-8521-4138-9f25-7da234a0ef1b","path":"sprites/spr_soluce/spr_soluce.yy",},},},"Disabled":false,"id":"5d896d32-40c9-4cf9-bb53-37c7040f7a1e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cfffcb4e-73b9-4d0d-95d3-5785a5725eb0","path":"sprites/spr_soluce/spr_soluce.yy",},},},"Disabled":false,"id":"f7bf7b57-a6e2-4a0d-b8f3-4c66476602cb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 51,
+  "width": 99,
 }
