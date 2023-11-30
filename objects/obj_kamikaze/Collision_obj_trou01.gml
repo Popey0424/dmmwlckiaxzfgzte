@@ -17,6 +17,7 @@ if(__dnd_lives <= 0)
 else if (__dnd_lives >= 0)
 {
 	__dnd_lives -= 1;
+	death = true;
 }
 
 
