@@ -18,5 +18,6 @@ y = obj_player.y + lengthdir_y(_dist, _dir);
 zone_collision_active = false;
 image_index = 0
 
-
+move_snap(128, 128);
+y += 64
 
