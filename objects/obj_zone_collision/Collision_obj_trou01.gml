@@ -5,27 +5,11 @@ image_index = 1
 zone_collision_active = true;
 
 if mouse_check_button_pressed(mb_right)
-
 {
-	
-	
 	instance_destroy(other);
 	with(obj_player) 
 	{
 		if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
 		__dnd_lives += real(+1);
-		
-		
 	}
-	
-
-
-//instance_create_layer(0, 0, "Instances_pop_up", obj_life);
-
-
-
-
 }
-
-
-
