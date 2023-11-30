@@ -67,16 +67,21 @@ __dnd_lives += real(3);
 	
 	anim_arme = false;
 	frames = 0;
+	fadeillu = false;
 	
 	
 	frames2 = 0;
 	
 	
 	anim_arme2 = false;
+
 	
 	
 	page_object5 = 0;
 	f5 = 0;
+	
+	alpha2 = 0;
+	alpha = 0;
 	
 	//invincibilité temporaire
 	

@@ -281,12 +281,19 @@ anim_arme = true;
 
 
 
-if anim_arme = true
-
+if anim_arme = true 
 { 
 	
 	frames = frames + 1;
+	alpha = alpha + 0.1;	
+	
 			
+}
+
+
+if fadeillu = true
+{ 
+alpha = alpha - 0.1;	
 }
 
 
@@ -297,7 +304,7 @@ if anim_arme2 = true
 { 
 	
 	frames2 = frames2 + 1;
-			
+	alpha2 = alpha2 + 0.1;	
 }
 
 //objet interactif 5 : affiche

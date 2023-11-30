@@ -196,23 +196,21 @@ if anim_arme = true and frames < 120
 
 	{
 		
-		draw_sprite(spr_illu_arme, image_index,1,1);
+		draw_sprite_ext(spr_illu_arme, image_index,1,1,image_xscale,image_yscale,0,c_white,alpha);
 	
 		instance_create_layer(x,y,"Instances_pop_up", obj_stop_player);
 		
-	
 	}	
 	
 	
 	
-if frames = 120   
+	
+if frames >= 120   
 
-{sprite_delete(spr_illu_arme);
+{ fadeillu = true;
 
 
 instance_destroy(obj_stop_player);
-
-anim_arme = false
 
 
 }
@@ -224,7 +222,9 @@ if anim_arme2 = true and frames2 < 180
 
 	{
 		
-		draw_sprite(spr_illu_end, image_index,1,1);
+		//draw_sprite(spr_illu_end, image_index,1,1);
+		
+		draw_sprite_ext(spr_illu_end, image_index,1,1,image_xscale,image_yscale,0,c_white,alpha2);
 	
 		instance_create_layer(x,y,"Instances_pop_up", obj_stop_player);
 		
