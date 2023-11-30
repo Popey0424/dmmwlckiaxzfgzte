@@ -21,3 +21,8 @@ image_index = 0
 move_snap(128, 128);
 y += 64
 
+
+
+
+
+

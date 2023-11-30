@@ -6,3 +6,7 @@ image_speed = 0
 
 instance_create_layer(x, y, "Instances_Character", obj_trou_visu)
 image_alpha = 0
+
+
+obj_life_on = 0;
+	vie = 0;

@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_cuve",
-    "path": "sprites/spr_cuve/spr_cuve.yy",
+    "name": "spr_cuvedeco",
+    "path": "sprites/spr_cuvedeco/spr_cuvedeco.yy",
   },
   "spriteMaskId": null,
   "visible": true,
