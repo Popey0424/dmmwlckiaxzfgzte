@@ -13,10 +13,7 @@
     "name": "Puzzle02",
     "path": "folders/Objects/Puzzle/Puzzle02.yy",
   },
-  "parentObjectId": {
-    "name": "obj_Wall",
-    "path": "objects/obj_Wall/obj_Wall.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

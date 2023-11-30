@@ -35,7 +35,7 @@ obj_life_on = 0;
 global.facing = 0
 
 if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
-__dnd_lives += real(4);
+__dnd_lives += real(3);
 
 //isGamePaused = false;
 

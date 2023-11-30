@@ -10,3 +10,5 @@ global.puzzle01_answer = ds_list_create()
 
 global.puzzle03 = 3
 global.puzzle03_answer = 0
+
+global.ps_system = part_system_create();

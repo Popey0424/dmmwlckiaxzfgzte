@@ -9,8 +9,15 @@ function scr_ejecter()
 	var  targetX = other.x; 
 	var  targetY = other.y;
 	
-	
-    
+	//new way
+	/*var _dir = point_direction(other.xprevious, other.yprevious, other.x, other.y);
+	var _xdest = lengthdir_x(128, _dir+180);
+    var _ydest = lengthdir_y(128, _dir+180);
+	if (!place_meeting(other.x + _xdest, other.y + _ydest, obj_Wall))
+	{
+		other.x += _xdest;
+		other.y += _ydest;
+	}*/
 	
 	if (other.x <= x-128) 
 	{
@@ -21,9 +28,11 @@ function scr_ejecter()
 			if (!place_meeting(targetX + 20, targetY, obj_Wall))
 				other.x -= 10;
 		}
-		
 		else
 			other.x -= 200
+		
+		//if (!place_meeting(targetX - 20, targetY, obj_Wall))
+			//other.x -= 20;
 		
 	}
 	

@@ -19,12 +19,12 @@ draw_path(path, x, y, 1);
 
 if ( _spawned == false )
 {
-	test = part_system_create();
+	//test = part_system_create();
 	_spawned = true;
 }
 
 if death = true
 {
-part_particles_create(test, x, y, PS_Explosion, 1)
+part_particles_create(global.ps_system, x, y, PS_Explosion, 1)
 death = false;
 }

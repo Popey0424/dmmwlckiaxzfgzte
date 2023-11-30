@@ -35,11 +35,11 @@ function calc_movement()
 	
 	if (sparks == true)
 	{
-		sparks = part_system_create();
+		//sparks = part_system_create();
 		sparks = false;
 	
 	}
-	part_particles_create(sparks, obj_player.x- (irandom_range(50,150)), obj_player.y+(irandom_range(0,75)), PS_sparks_fluid, 1)
+	part_particles_create(global.ps_system, obj_player.x- (irandom_range(50,150)), obj_player.y+(irandom_range(0,75)), PS_sparks_fluid, 1)
 
 	var _hmove = right - left;  //creation d'une variable qui vas etre libere de la memoir a la fin de la braquette
 	if(_hmove == -1)
