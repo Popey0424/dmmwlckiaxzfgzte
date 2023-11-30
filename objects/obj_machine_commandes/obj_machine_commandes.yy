@@ -9,7 +9,10 @@
     "name": "salle_des_machines",
     "path": "folders/Objects/Decoration/salle_des_machines.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_Wall",
+    "path": "objects/obj_Wall/obj_Wall.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

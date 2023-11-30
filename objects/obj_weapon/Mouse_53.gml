@@ -17,7 +17,7 @@ else
 if(can_shoot == true)
 	{
 		audio_play_sound(tir, 1000, 0)
-		instance_create_layer(obj_zone_collision.x , obj_zone_collision.y , "Instances_Character", obj_trou01);
+		instance_create_layer(obj_trou_visu.x , obj_trou_visu.y , "Instances_Character", obj_trou01);
 		
 		can_shoot = false;
 		
